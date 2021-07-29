@@ -9,8 +9,12 @@ const color = document.querySelector('#color')
 btn_toggle.onclick = () => {
   if( btn_toggle.innerHTML === "Show Calculation"){
     btn_toggle.innerHTML = "Show Author"
+    author.innerHTML = 630610754 + Number(length.value)
   } 
-  else btn_toggle.innerHTML = "Show Calculation"
+  else{
+    btn_toggle.innerHTML = "Show Calculation"
+    author.innerHTML = "630610754 RONNAGON PHUAKHUTA"
+  } 
 }
 
 // more codes for Search and Reset buttons here
