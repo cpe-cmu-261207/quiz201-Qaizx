@@ -4,3 +4,7 @@ body {
   color: black;
   text-align: center;
 }
+
+.red {
+  background-color: red;
+}

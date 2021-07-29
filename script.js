@@ -17,4 +17,8 @@ btn_toggle.onclick = () => {
   } 
 }
 
+// const reset = (ev) = {
+//   color.
+// }
+
 // more codes for Search and Reset buttons here
