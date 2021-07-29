@@ -7,7 +7,10 @@ const color = document.querySelector('#color')
 // define more constants and variables here
 
 btn_toggle.onclick = () => {
-  // your code here
+  if( btn_toggle.innerHTML === "Show Calculation"){
+    btn_toggle.innerHTML = "Show Author"
+  } 
+  else btn_toggle.innerHTML = "Show Calculation"
 }
 
 // more codes for Search and Reset buttons here
